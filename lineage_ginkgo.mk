@@ -25,9 +25,7 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 USE_PIXEL_CHARGING := true
 
 # Retrofit
-#PRODUCT_BUILD_SUPER_PARTITION := false
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-PRODUCT_RETROFIT_DYNAMIC_PARTITIONS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_ginkgo
